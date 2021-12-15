@@ -22,7 +22,7 @@ public class Client {
 		
 		System.out.println("[서버에 연결을 요청합니다.]");
 	
-		socket.connect(new InetSocketAddress("192.168.219.101",10001)); //Client가 아닌 내 IP
+		socket.connect(new InetSocketAddress("192.168.219.113",10001)); //Client가 아닌 내 IP
 
 		System.out.println("[서버에 연결되었습니다.]");
 		
